@@ -1,2 +1,2 @@
 # iview-doc
-Doc of iView
+Doc of Epoint BigData Libs
