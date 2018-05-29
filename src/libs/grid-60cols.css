@@ -1,0 +1,304 @@
+/*  60列 栅格系统 */
+.bs-col-1,
+.bs-col-2,
+.bs-col-3,
+.bs-col-4,
+.bs-col-5,
+.bs-col-6,
+.bs-col-7,
+.bs-col-8,
+.bs-col-9,
+.bs-col-10,
+.bs-col-11,
+.bs-col-12,
+.bs-col-13,
+.bs-col-14,
+.bs-col-15,
+.bs-col-16,
+.bs-col-17,
+.bs-col-18,
+.bs-col-19,
+.bs-col-20,
+.bs-col-21,
+.bs-col-22,
+.bs-col-23,
+.bs-col-24,
+.bs-col-25,
+.bs-col-26,
+.bs-col-27,
+.bs-col-28,
+.bs-col-29,
+.bs-col-30,
+.bs-col-31,
+.bs-col-32,
+.bs-col-33,
+.bs-col-34,
+.bs-col-35,
+.bs-col-36,
+.bs-col-37,
+.bs-col-38,
+.bs-col-39,
+.bs-col-40,
+.bs-col-41,
+.bs-col-42,
+.bs-col-43,
+.bs-col-44,
+.bs-col-45,
+.bs-col-46,
+.bs-col-47,
+.bs-col-48,
+.bs-col-49,
+.bs-col-50,
+.bs-col-51,
+.bs-col-52,
+.bs-col-53,
+.bs-col-54,
+.bs-col-55,
+.bs-col-56,
+.bs-col-57,
+.bs-col-58,
+.bs-col-59,
+.bs-col-60 {
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.bs-col-1 {
+    width: 1.6666666667%;
+}
+
+.bs-col-2 {
+    width: 3.3333333333%;
+}
+
+.bs-col-3 {
+    width: 5%;
+}
+
+.bs-col-4 {
+    width: 6.6666666666%;
+}
+
+.bs-col-5 {
+    width: 8.3333333333%;
+}
+
+.bs-col-6 {
+    width: 10%;
+}
+
+.bs-col-7 {
+    width: 11.6666666667%;
+}
+
+.bs-col-8 {
+    width: 13.3333333333%;
+}
+
+.bs-col-9 {
+    width: 15%;
+}
+
+.bs-col-10 {
+    width: 16.6666666667%;
+}
+
+.bs-col-11 {
+    width: 18.3333333333%;
+}
+
+.bs-col-12 {
+    width: 20%;
+}
+
+.bs-col-13 {
+    width: 21.6666666667%;
+}
+
+.bs-col-14 {
+    width: 23.3333333333%;
+}
+
+.bs-col-15 {
+    width: 25%;
+}
+
+.bs-col-16 {
+    width: 26.6666666667%;
+}
+
+.bs-col-17 {
+    width: 28.3333333333%;
+}
+
+.bs-col-18 {
+    width: 30%;
+}
+
+.bs-col-19 {
+    width: 31.6666666667%;
+}
+
+.bs-col-20 {
+    width: 33.3333333333%;
+}
+
+.bs-col-21 {
+    width: 35%;
+}
+
+.bs-col-22 {
+    width: 36.6666666667%;
+}
+
+.bs-col-23 {
+    width: 38.3333333333%;
+}
+
+.bs-col-24 {
+    width: 40%;
+}
+
+.bs-col-25 {
+    width: 41.6666666667%;
+}
+
+.bs-col-26 {
+    width: 43.3333333333%;
+}
+
+.bs-col-27 {
+    width: 45%;
+}
+
+.bs-col-28 {
+    width: 46.6666666667%
+}
+
+.bs-col-29 {
+    width: 48.3333333333%;
+}
+
+.bs-col-30 {
+    width: 50%;
+}
+
+.bs-col-31 {
+    width: 51.6666666666%;
+}
+
+.bs-col-32 {
+    width: 53.3333333333%;
+}
+
+.bs-col-33 {
+    width: 55%;
+}
+
+.bs-col-34 {
+    width: 56.6666666667%;
+}
+
+.bs-col-35 {
+    width: 58.3333333333%;
+}
+
+.bs-col-36 {
+    width: 60%;
+}
+
+.bs-col-37 {
+    width: 61.6666666667%;
+}
+
+.bs-col-38 {
+    width: 63.3333333333%;
+}
+
+.bs-col-39 {
+    width: 65%;
+}
+
+.bs-col-40 {
+    width: 66.66666666667%;
+}
+
+.bs-col-41 {
+    width: 68.33333333333%;
+}
+
+.bs-col-42 {
+    width: 70%;
+}
+
+.bs-col-43 {
+    width: 71.66666666666%;
+}
+
+.bs-col-44 {
+    width: 73.33333333333%;
+}
+
+.bs-col-45 {
+    width: 75%;
+}
+
+.bs-col-46 {
+    width: 76.66666666667%;
+}
+
+.bs-col-47 {
+    width: 78.33333333333%;
+}
+
+.bs-col-48 {
+    width: 80%;
+}
+
+.bs-col-49 {
+    width: 81.66666666667%;
+}
+
+.bs-col-50 {
+    width: 83.33333333333%;
+}
+
+.bs-col-51  {
+    width: 85%;
+}
+
+.bs-col-52 {
+    width: 86.66666666667%;
+}
+
+.bs-col-53 {
+    width: 88.33333333333%;
+}
+
+.bs-col-54 {
+    width: 90%;
+}
+
+.bs-col-55 {
+    width: 91.66666666667%;
+}
+
+.bs-col-56 {
+    width: 93.33333333333%;
+}
+
+.bs-col-57 {
+    width: 95%;
+}
+
+.bs-col-58 {
+    width: 96.66666666667%;
+}
+
+.bs-col-59 {
+    width: 98.33333333333%;
+}
+
+.bs-col-60 {
+    width: 100%;
+}
