@@ -1,6 +1,30 @@
 <template>
     <i-article>
         <article>
+            <Anchor title="地图工具集合" h2></Anchor>
+            <ul>
+              <li><a href="http://fe.epoint.com.cn:8080/fedoc/?file=005-%E6%8A%80%E6%9C%AF%E4%B8%93%E9%A2%98/001-Echarts/002-ECharts%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9C%B0%E5%9B%BE" target="_blank">ECharts自定义地图制作</a></li>
+              <li><a href="http://fe.epoint.com.cn:8080/fedemo/pages/echartsmapdown/index.html" target="_blank">ECharts地图下载</a></li>
+              <li><a href="http://fe.epoint.com.cn:8080/fedemo/pages/echartsgeojson/echartsgeojson.html" target="_blank">ECharts地图数据生成工具</a></li>
+              <li><a href="http://fe.epoint.com.cn:8080/fedemo/pages/echartsmerge/mergearea.html" target="_blank">ECharts地图合并工具</a></li>
+            </ul>
+
+            <Anchor title="个性化地图下载" h2></Anchor>
+            <ul>
+              <li><a href="./assets/maps/binzhou.js" download="">滨州北海新区</a></li>
+              <li><a href="./assets/maps/henan.js" download="">河南(加了10个直管县+市本级)</a></li>
+              <li><a href="./assets/maps/shenzhen.js" download="">深圳</a></li>
+              <li><a href="./assets/maps/zhangjiagang.json" download="">张家港</a></li>
+              <li><a href="./assets/maps/taicang.js" download="">太仓</a></li>
+              <li><a href="./assets/maps/changshu.js" download="">常熟</a></li>
+              <li><a href="./assets/maps/yiwu.js" download="">义乌</a></li>
+              <li><a href="./assets/maps/zjgall.rar" download="">张家港全家桶</a></li>
+              <li><a href="./assets/maps/ruijin.js" download="">瑞金</a></li>
+            </ul>
+
+            <Anchor title="全国各省市地区经纬度" h2></Anchor>
+            <i-code bg lang="js">{{ code.areaLocation }}</i-code>
+            <br>
             <Demo title="热力图">
                 <div slot="demo">
                     <div class="chart" ref="hotChart"></div>
@@ -41,8 +65,6 @@
                 <i-code lang="javascript" slot="code">{{ code.timeLine }}</i-code>
             </Demo>
 
-            <Anchor title="全国各省市地区经纬度" h2></Anchor>
-            <i-code>{{ code.areaLocation }}</i-code>
         </article>
     </i-article>
 </template>
@@ -377,7 +399,7 @@ export default {
       return this.mapData4.value.map(function(item) {
         item.coord = this.mapData4.mapcood[item.name];
         return item;
-      })
+      });
     }
   },
   methods: {
@@ -792,8 +814,7 @@ export default {
         var s = {
           series: [
             {
-              markPoint: 
-              {
+              markPoint: {
                 data: e.mapData.map(function(item) {
                   item.coord = vueObj.mapData4.mapcood[item.name];
                   return item;
@@ -809,7 +830,7 @@ export default {
         series.push(s);
       });
       timeLineChart.setOption({
-          options: series
+        options: series
       });
     }
   },

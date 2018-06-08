@@ -20,6 +20,9 @@
                 </li>
             </ul>
 
+            <Anchor title="声明式注释" h2></Anchor>
+            <i-code bg lang="javascript">{{ code.notes }}</i-code>
+
             <Anchor title="目录结构" h2></Anchor>
             <p>常规大屏项目通常只包含几个页面，一般采用最简易的方式搭建目录结构。</p>
             <i-code bg>{{ code.lib }}</i-code>
@@ -30,19 +33,19 @@
             <ul>
                 <li>
                     <p>html中引入必要资源</p>
-                    <i-code bg>{{ code.import }}</i-code>
+                    <i-code bg lang="html">{{ code.import }}</i-code>
                     <br>
                 </li>
 
                 <li>
                     <p>js中进行图表配置，模拟数据请求，数据渲染</p>
-                    <i-code bg>{{ code.js }}</i-code>
+                    <i-code bg lang="javascript">{{ code.js }}</i-code>
                     <br>
                 </li>
 
                 <li>
                     <p>在模拟数据文件中进行数据模拟</p>
-                    <i-code bg>{{ code.mockjs }}</i-code>
+                    <i-code bg lang="javascript">{{ code.mockjs }}</i-code>
                     <br>
                     <Alert show-icon>
                         <span>注意：数据模拟要注意语义化，做到“见名知意”。</span>
@@ -55,7 +58,7 @@
             <ul>
                 <li>
                     <p>图表类沉淀，需要提供完整的配置，如需引入除echarts外的其他资源（如词云、地图、三方素材图等）也需要注明，特殊处理处需要额外注释，示例代码如下</p>
-                    <i-code bg>{{ code.chartdemo }}</i-code>
+                    <i-code bg lang="javascript">{{ code.chartdemo }}</i-code>
                 </li>
 
                 <li>
@@ -69,18 +72,9 @@
 
             <br>
             
-            <Anchor title="资源" h2></Anchor>
+            <Anchor title="快速开发包" h2></Anchor>
             <ul>
-                <li>对于常规的大屏页面，可以使用此<a href="./assets/bsPackage180326.rar" download>开发包</a>,包含基本的大屏开发文件骨架，必要的资源及部分示例代码。</li>
-                <p>部分常用三方插件资源：</p>
-                <li>
-                    <a href="http://git.blivesta.com/animsition/">animsition</a>
-                    常用页面加载动画效果
-                </li>
-                <li>
-                    <a href="https://daneden.github.io/animate.css/">animate.css</a>
-                    三方动画css库，用于实现一些动效交互
-                </li>
+                <li>对于常规的大屏页面，可以使用此<a href="./assets/bsPackage180518.zip" download>开发包</a>,包含基本的大屏开发文件骨架，必要的资源及部分示例代码。</li>
             </ul>
 
             <Alert show-icon>

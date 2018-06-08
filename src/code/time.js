@@ -19,12 +19,12 @@ function getNow() {
     return timeStr;
 };
 
-(function () {
-    var arg = arguments;
+// es5严格模式禁用argument.callee方法，采用非匿名函数调用的方式调用自身
+(function updateTime() {
     var nows = getNow();
     $("#bs-time").text(nows);
     setTimeout(function () {
-        arg.callee();
+        updateTime();
     }, 1000);
 })();
 `;

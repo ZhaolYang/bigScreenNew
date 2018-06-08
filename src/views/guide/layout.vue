@@ -11,7 +11,7 @@
     <i-article>
         <article>
             <Anchor title="Layout 布局" h1></Anchor>
-            <p>通常情况下，大屏页面采用以下几种布局。</p>
+            <p>传统的大数据页面布局比较常见的有以下几种：</p>
             <Anchor title="栅格化3*3" h2></Anchor>
             <img src="../../images/grid3-3.png"/>
             <Anchor title="栅格化3*2" h2></Anchor>

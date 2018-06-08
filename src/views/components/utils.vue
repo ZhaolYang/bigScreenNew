@@ -13,6 +13,12 @@
 
             <Anchor title="从对象数组中提取出值数组" h2></Anchor>
             <i-code lang="js" bg>{{ code.getValArr }}</i-code>
+
+            <Anchor title="快速数据渲染" h2></Anchor>
+            <p>HTML结构</p>
+            <i-code lang="html" bg>{{ code.renderNum.html }}</i-code>
+            <br>
+            <i-code lang="js" bg>{{ code.renderNum.js }}</i-code>
         </article>
     </i-article>
 </template>

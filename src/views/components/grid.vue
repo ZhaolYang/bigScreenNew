@@ -42,7 +42,8 @@
     <i-article>
         <article>
             <h1>Grid 栅格</h1>
-            <Anchor title="概述" h2></Anchor>
+            <p>经过验证，栅格系统不适用于大数据页面的开发，更适合传统网站的开发。</p>
+            <Anchor title="栅格化概念，了解一下" h2></Anchor>
             <Row class-name="demo-row">
                 <Col :span="24" class-name="demo-col">60：100%</Col>
             </Row>
@@ -65,8 +66,8 @@
                 <Col :span="16" class-name="demo-col">40：66.66%</Col>
                 <Col :span="8" class-name="demo-col light">20：33.33%</Col>
             </Row>
-            <p>我们采用了60栅格系统，将区域进行60等分，这样可以轻松应对大部分布局问题。使用栅格系统进行网页布局，可以使页面排版美观、舒适。</p>
-            <p>我们定义了两个概念，行<code>row</code>和列<code>col</code>，具体使用方法如下：</p>
+            <p>以60列栅格系统为例，将区域进行60等分，这样可以轻松应对大部分布局问题。使用栅格系统进行网页布局，可以使页面排版美观、舒适。</p>
+            <p>栅格有两个概念，行<code>row</code>和列<code>col</code>，具体使用方法如下：</p>
             <ul>
                 <li>使用栅格化之前，引入<code>grid-60cols.css</code></li>
                 <li>使用<code>clearfix</code>在水平方向创建一行</li>
