@@ -20,11 +20,15 @@
               <li><a href="./assets/maps/yiwu.js" download="">义乌</a></li>
               <li><a href="./assets/maps/zjgall.rar" download="">张家港全家桶</a></li>
               <li><a href="./assets/maps/ruijin.js" download="">瑞金</a></li>
+              <li><a href="./assets/maps/haian.js" download="">南通海安县</a></li>
             </ul>
 
             <Anchor title="全国各省市地区经纬度" h2></Anchor>
             <i-code bg lang="js">{{ code.areaLocation }}</i-code>
             <br>
+            <Anchor title="地图下钻" h2></Anchor>
+            <p><a href="./demos/zjgdeepmap/demo.html">张家港地图下钻示例</a></p>
+
             <Demo title="热力图">
                 <div slot="demo">
                     <div class="chart" ref="hotChart"></div>
