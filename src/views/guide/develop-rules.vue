@@ -74,7 +74,7 @@
             
             <Anchor title="资源" h2></Anchor>
             <ul>
-                <li>对于常规的大屏页面，可以使用此<a href="./assets/bsPackage180518.zip" download>开发包</a>,包含基本的大屏开发文件骨架，必要的资源及部分示例代码。</li>
+                <li>对于常规的大屏页面，可以使用此<a href="./assets/bsPackage180614.zip" download>开发包</a>,包含基本的大屏开发文件骨架，必要的资源及部分示例代码。</li>
             </ul>
 
             <Alert show-icon>
