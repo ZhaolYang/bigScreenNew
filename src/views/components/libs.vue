@@ -61,6 +61,27 @@
             <alert show-icon><a href="./demos/animateNumber" target="_blank">参考实例</a></alert>
             <p>使用方法</p>
             <i-code lang="javascript" bg>{{code.animateNumber}}</i-code>
+
+            <Anchor title="基于ajax的loading效果" h2></Anchor>
+            <p>利用 ajaxStart 和 ajaxStop 来控制loading的显示隐藏，推荐结合layer的loading效果使用（layer兼容性较好）。</p>
+            <i-code lang="javascript" bg>{{code.ajaxLoading}}</i-code>
+
+            <Anchor title="animsition.js-页面的动画载入" h2></Anchor>
+            <p>基于jquery的一个动画效果插件，使用起来比较简单，常用语大屏项目的页面切换效果。</p>
+            <alert show-icon>
+                <a href="//git.blivesta.com/animsition/fade/" target="_blank">官网示例及教程</a>
+            </alert>
+            <p>使用方法</p>
+            <i-code lang="html" bg>{{code.animsition.html}}</i-code>
+            <br>
+            <i-code lang="javascript" bg>{{code.animsition.js}}</i-code>
+
+            <Anchor title="浮动的气泡" h2></Anchor>
+            <p>基于jquery实现的气泡生成插件，有两个版本：适合低版本浏览器需求的<a href="./assets/BisBubble.zip" download="">业务系统版本</a>和效果加强的<a href="./assets/BsBubble.zip" download="">大屏版本</a>。</p>
+            <alert show-icon>
+                <a href="./demos/bubble/BisBubble/demo.html" target="_blank">业务系统版参考实例</a>
+                <a href="./demos/bubble/BsBubble/demo.html" target="_blank">大屏版参考实例</a>
+            </alert>
         </article>
     </i-article>
 </template>

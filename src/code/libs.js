@@ -148,4 +148,61 @@ $('#fun-level').animateNumber(
 );
 `
 
+code.ajaxLoading = `
+$(document).ajaxStart(function() {
+  // 这里执行loading效果的显示、或者其他各种你需要实现的功能
+  console.log('start')
+})
+$(document).ajaxStop(function() {
+  // 这里执行loading效果的隐藏、或者其他各种你需要在页面所有ajax调用完成后实现的功能
+  console.log('end')
+})
+`;
+
+code.animsition = {
+  html: `
+<!-- step1 -->
+<!-- animsition.css -->
+<link rel="stylesheet" href="../dist/css/animsition.min.css">
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- animsition.js -->
+<script src="../dist/js/animsition.min.js"></script>
+
+<!-- step2 -->
+<body>
+  <div class="animsition">
+    <a href="./page1" class="animsition-link">animsition link 1</a>
+    <a href="./page2" class="animsition-link">animsition link 2</a>
+  </div>
+</body>
+  `,
+  js: `
+$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in',
+    outClass: 'fade-out',
+    inDuration: 1500,
+    outDuration: 800,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+  `
+};
+
 export default code;
