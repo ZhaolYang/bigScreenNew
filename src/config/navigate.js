@@ -120,6 +120,11 @@ const list = {
                     title: 'tools 实用工具',
                     path: '/components/tools',
                     icon: 'wrench'
+                },
+                {
+                    title: 'components 常见组件',
+                    path: '/components/components',
+                    icon: 'ios-photos-outline'
                 }
             ]
         }

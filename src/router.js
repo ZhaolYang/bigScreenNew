@@ -136,6 +136,13 @@ const routers = [
         component: (resolve) => require(['./views/components/tools.vue'], resolve)
     },
     {
+        path: '/components/components',
+        meta: {
+            title: 'components 常见组件'
+        },
+        component: (resolve) => require(['./views/components/components.vue'], resolve)
+    },
+    {
         path: '*',
         redirect: '/'
     }

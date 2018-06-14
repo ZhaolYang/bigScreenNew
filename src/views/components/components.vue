@@ -14,6 +14,10 @@
       <p>对于一些常见的TOP5、TOP10等列表或滚动列表，可以直接使用伪元素+css counter进行实现，既简化了dom结构，也大大的提高了灵活性，兼容性也非常好（ie8+）。</p>
       <iframe height='265' scrolling='no' title='deyxKV' src='//codepen.io/keroroZhao/embed/deyxKV/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/deyxKV/'>deyxKV</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
       <alert show-icon>具体用法请参考<a href="http://www.w3school.com.cn/cssref/pr_gen_counter-increment.asp" target="_blank">css counter</a></alert>
+
+      <Anchor title="多行文本省略" h2></Anchor>
+      <p>兼容性贼6！</p>
+      <iframe height='265' scrolling='no' title='XqqWyw' src='//codepen.io/keroroZhao/embed/XqqWyw/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/XqqWyw/'>XqqWyw</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
     </article>
   </i-article>
 </template>
