@@ -8,6 +8,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var copyWebpackPlugin = require("copy-webpack-plugin");
 var fs = require('fs');
+var UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 // config.output.publicPath = 'http://192.168.201.159/bigscreen/dist/';
 config.output.publicPath = '/bigscreen/dist/';
@@ -31,11 +32,12 @@ config.plugins = (config.plugins || []).concat([
             NODE_ENV: '"production"'
         }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-        compress: {
-            warnings: false
-        }
-    }),
+    new UglifyJSPlugin(),
+    // new webpack.optimize.UglifyJsPlugin({
+    //     compress: {
+    //         warnings: false
+    //     }
+    // }),
     new HtmlWebpackPlugin({
         filename: '../index.html',
         template: './src/template/index.ejs',
