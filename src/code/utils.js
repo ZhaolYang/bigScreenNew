@@ -1,6 +1,6 @@
 let code = {};
 
-code.commafy  = `
+code.commafy = `
 function toThousand(num) {
   return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,');
 }
@@ -118,5 +118,60 @@ code.renderNum = {
   renderNum('sp',data);
   `
 }
+
+code.resizeChart = `
+// 定义一个定时器变量，做函数节流
+var timer = null;
+$(window).on('resize', function () {
+  // 获取所有echarts容器的jQuery对象
+  var $echarts = $('.echart-item');
+  if (timer) clearTimeout(timer);
+  timer = setTimeout(function () {
+    $.each($echarts, function (i, e) {
+      // 调用echarts的api获取图表实例，执行缩放
+      var chart = echarts.getInstanceByDom(e);
+      chart.resize();
+    })
+  }, 50)
+})
+`;
+
+code.autoTooltip = `
+/**
+ * 定时切换echarts图表tooltip
+ * @param chart 图表对象
+ * @param length 图表数据的长度
+ */
+showTooltip: function(chart, length) {
+  chart.dataLength = length;
+  chart.currentIndex = 0;
+  clearInterval(chart.timer);
+  chart.timer = setInterval(function() {
+    if (chart.currentIndex === chart.dataLength) {
+      chart.currentIndex = 0;
+    }
+    chart.dispatchAction({
+      type: 'showTip',
+      seriesIndex: 0,
+      dataIndex: chart.currentIndex
+    });
+    chart.currentIndex++;
+  }, 2000);
+}
+`;
+
+code.getPercent = `
+/**
+ * 获取百分比
+ * @param max 最大值
+ * @param data 数值
+ * @param fixed 小数点精确位数(不传默认为0)
+ */
+getPercent: function(max, data, fixed) {
+  var _fixed = fixed || 0;
+  var percent = (data / max * 100).toFixed(fixed) + '%';
+  return percent;
+}
+`;
 
 export default code;

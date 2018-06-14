@@ -14,11 +14,22 @@
             <Anchor title="从对象数组中提取出值数组" h2></Anchor>
             <i-code lang="js" bg>{{ code.getValArr }}</i-code>
 
+            <Anchor title="获取百分比" h2></Anchor>
+            <i-code lang="js" bg>{{ code.getPercent }}</i-code>
+
             <Anchor title="快速数据渲染" h2></Anchor>
             <p>HTML结构</p>
             <i-code lang="html" bg>{{ code.renderNum.html }}</i-code>
             <br>
             <i-code lang="js" bg>{{ code.renderNum.js }}</i-code>
+
+            <Anchor title="图表自适应" h2></Anchor>
+            <p>针对系统的大数据页面，通常有自适应需求，可以通过给每个图表元素添加统一类名，再通过echarts的api获取元素对应的echarts实例做缩放处理。</p>
+            <i-code lang="js" bg>{{ code.resizeChart }}</i-code>
+
+            <Anchor title="常规图表的自交互-自动刷新tooltip" h2></Anchor>
+            <p>为了让页面看起来“动态”一点，针对常规图表，除了正常的鼠标悬浮tooltip，另外需要新增自动显示tooltip，工具方法新增了对应的方法，如下。</p>
+            <i-code lang="js" bg>{{ code.autoTooltip }}</i-code>
         </article>
     </i-article>
 </template>
