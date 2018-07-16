@@ -13,8 +13,7 @@
       </iframe>
 
       <Anchor title="使用clip实现动态边框" h2></Anchor>
-      <iframe height='265' scrolling='no' title='PRWJja' src='//codepen.io/keroroZhao/embed/PRWJja/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/PRWJja/'>PRWJja</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.
-      </iframe>
+      <iframe height='265' scrolling='no' title='[PURE CSS] border animation without svg' src='//codepen.io/keroroZhao/embed/YvdPVy/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/YvdPVy/'>[PURE CSS] border animation without svg</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
 
       <Anchor title="hover.css" h2></Anchor>
       <p>一个专注于鼠标悬浮效果的css3库(兼容ie10+)，使用方法：1、直接引入css，给需要增加悬浮效果的元素加上类名即可；2、按需复制对应效果的css片段（建议用此方式使用）。</p>

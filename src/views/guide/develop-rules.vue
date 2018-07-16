@@ -2,7 +2,7 @@
     <i-article>
         <article>
             <h1>大屏开发规范</h1>
-            <p>良好的开发规范利于项目的维护及交接，针对大屏开发，请各位同事认真执行以下规范。</p>
+            <p>良好的开发规范利于项目的维护及交接，针对大屏开发，请各位同事认真执行以下规范,规范执行情况会记录在团队绩效考核中。</p>
             <Anchor title="约定" h2></Anchor>
             <p>在大屏项目开发工作开始之前，在遵循<a href="http://192.168.201.159/fedemo/pages/codeguide/" target="_blank">前端代码规范</a>的前提下，还需要各位大屏开发人员遵循以下约定：</p>
             <ul>
@@ -71,10 +71,15 @@
             </ul>
 
             <br>
+
+            <Anchor title="图片资源的引入" h2></Anchor>
+            <p>对于较大的切图，如页面背景，如果没有透明度需求，一律使用jpg格式，较大的图片资源使用<a href="https://tinypng.com/" target="_blank">tinyPng</a>进行压缩。</p>
+
+            <br>
             
             <Anchor title="资源" h2></Anchor>
             <ul>
-                <li>对于常规的大屏页面，可以使用此<a href="./assets/bsPackage180614.zip" download>开发包</a>,包含基本的大屏开发文件骨架，必要的资源及部分示例代码。</li>
+                <li>对于常规的大屏页面，可以使用此<a href="./assets/bsPackage180704.zip" download>开发包</a>,包含基本的大屏开发文件骨架，必要的资源及部分示例代码。</li>
             </ul>
 
             <Alert show-icon>

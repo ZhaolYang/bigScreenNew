@@ -30,6 +30,20 @@
             <Anchor title="常规图表的自交互-自动刷新tooltip" h2></Anchor>
             <p>为了让页面看起来“动态”一点，针对常规图表，除了正常的鼠标悬浮tooltip，另外需要新增自动显示tooltip，工具方法新增了对应的方法，如下。</p>
             <i-code lang="js" bg>{{ code.autoTooltip }}</i-code>
+            
+            <Anchor title="active" h2></Anchor>
+            <p>常规的点击高亮操作。</p>
+            <i-code lang="js" bg>{{ code.active }}</i-code>
+
+            <Anchor title="函数防抖" h2></Anchor>
+            <p>防止同样的操作连续多次执行，避免不必要的资源浪费。</p>
+            <i-code lang="js" bg>{{ code.debounce }}</i-code>
+
+            <Anchor title="函数节流" h2></Anchor>
+            <p>大量操作，慢点运行。</p>
+            <i-code lang="js" bg>{{ code.throttle }}</i-code>
+            <br>
+            <alert show-icon>函数的节流防抖可以参考<a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554442&idx=2&sn=c2f4d60c24dc8cc176d3f083a75d3414&chksm=8025554bb752dc5d35d234c769d620f99aa40587eac6803953199b49a0e0d68fc36f8442168c&mpshare=1&scene=23&srcid=0704ShAm2tsjArvnK5hcYzol%23rd" target="_blank">这篇文章</a>，解释的很详细。</alert>
         </article>
     </i-article>
 </template>

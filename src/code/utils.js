@@ -2,7 +2,7 @@ let code = {};
 
 code.commafy = `
 function toThousand(num) {
-  return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,');
+  return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, "$1,");
 }
 `;
 
@@ -141,22 +141,23 @@ code.autoTooltip = `
  * 定时切换echarts图表tooltip
  * @param chart 图表对象
  * @param length 图表数据的长度
+ * @param interval 时间间隔，默认3s
  */
-showTooltip: function(chart, length) {
+showTooltip: function (chart, length, interval) {
   chart.dataLength = length;
   chart.currentIndex = 0;
   clearInterval(chart.timer);
-  chart.timer = setInterval(function() {
-    if (chart.currentIndex === chart.dataLength) {
-      chart.currentIndex = 0;
-    }
-    chart.dispatchAction({
-      type: 'showTip',
-      seriesIndex: 0,
-      dataIndex: chart.currentIndex
-    });
-    chart.currentIndex++;
-  }, 2000);
+  chart.timer = setInterval(function () {
+      if (chart.currentIndex === chart.dataLength) {
+          chart.currentIndex = 0;
+      }
+      chart.dispatchAction({
+          type: 'showTip',
+          seriesIndex: 0,
+          dataIndex: chart.currentIndex
+      });
+      chart.currentIndex++;
+  }, interval || 3000);
 }
 `;
 
@@ -171,6 +172,76 @@ getPercent: function(max, data, fixed) {
   var _fixed = fixed || 0;
   var percent = (data / max * 100).toFixed(fixed) + '%';
   return percent;
+}
+`;
+
+code.active = `
+/**
+ * 为元素绑定高亮行为,采用jq的事件委托
+ * @param $ct 事件委托监听元素
+ * @param target 事件目标
+ * @param successFn 触发回调
+ * @param event 触发行为，不传默认click
+ * @param activeClass 高亮类名，不传默认为‘active’
+ */
+activeDom: function ($ct, target, successFn, event, activeClass) {
+  var cls = activeClass || 'active';
+  $ct.on(event || 'click', target, function (e) {
+      var $this = $(this);
+      if($this.hasClass(cls)) return;
+      $this.addClass(cls).siblings().removeClass(cls);
+      // successFn接收点击事件和点击目标的jq对象作为参数
+      successFn(e, $this);
+      // 返回父容器jq对象，可以链式执行其他操作
+      return $ct;
+  })
+}
+`;
+
+code.debounce = `
+/**
+ * 函数防抖
+ * @param func 执行函数
+ * @param delay 延迟时间，不传默认160ms
+ */
+debounce: function (func, delay) {
+  var timeout;
+  return function (e) {
+    clearTimeout(timeout);
+    var context = this,
+      args = arguments;
+    timeout = setTimeout(function () {
+      func.apply(context, args);
+    }, delay || 160)
+  };
+}
+`;
+
+code.throttle = `
+/**
+ * 函数节流
+ * @param func 执行函数
+ * @param threshhold 延迟时间，不传默认160ms
+ */
+throttle: function (func, threshhold) {
+  var timeout,
+    start = new Date,
+    threshhold = threshhold || 160;
+  return function () {
+    var context = this,
+      args = arguments,
+      curr = new Date() - 0;
+    clearTimeout(timeout); //总是干掉事件回调
+    if (curr - start >= threshhold) {
+      fn.apply(context, args); //只执行一部分方法，这些方法是在某个时间段内执行一次
+      start = curr;
+    } else {
+      //让方法在脱离事件后也能执行一次
+      timeout = setTimeout(function () {
+          fn.apply(context, args);
+      }, threshhold);
+    }
+  }
 }
 `;
 

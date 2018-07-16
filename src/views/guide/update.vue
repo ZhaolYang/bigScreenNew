@@ -25,6 +25,14 @@
         <article class="doc-update">
             <Timeline pending>
                 <Timeline-item>
+                    <Anchor title="2018-7-4" h2></Anchor>
+                    <ul>
+                        <li>大屏开发规范调整，新增图片资源引入规范。</li>
+                        <li>工具方法新增点击交互、节流防抖函数。</li>
+                        <li>大屏开发包更新。</li>
+                    </ul>
+                </Timeline-item>
+                <Timeline-item>
                     <Anchor title="2018-6-14" h2></Anchor>
                     <ul>
                         <li>工具方法新增获取百分比，图表自适应，图表自动切换tooltip方法。</li>

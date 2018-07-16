@@ -91,6 +91,7 @@
                     <p>
                         需要引入下钻地图数据
                         <a href="http://192.168.201.159/fedemo/pages/echartsdemo/demopage/mapdrill.html" target="_blank">实例参考</a>
+                        <a href="./assets/地图下钻Demo.rar" download>实例下载</a>
                         </p>
                 </div>
                 <i-code lang="javascript" slot="code">{{ code.deepmap }}</i-code>
