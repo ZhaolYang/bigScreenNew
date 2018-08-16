@@ -112,15 +112,5 @@
 </script>
 
 <style scoped>
-.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #eee;
-    transition: all .2s;
-}
 
-.circle:hover {
-    background-color: #f67300;
-}
 </style>

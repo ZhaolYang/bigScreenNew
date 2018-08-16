@@ -22,7 +22,7 @@
                     <h2>新点大屏开发组件库</h2>
                     <div class="list">
                         <router-link :to="'/docs/guide/introduction'">组件</router-link>
-                        <a href="//192.168.201.159/fedoc/?file=home-%E9%A6%96%E9%A1%B5" target="_blank">
+                        <a href="//fe.epoint.com.cn:8080/fedoc/?file=home-%E9%A6%96%E9%A1%B5" target="_blank">
                             前端在线文档
                         </a>
                     </div>

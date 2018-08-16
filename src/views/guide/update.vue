@@ -25,6 +25,32 @@
         <article class="doc-update">
             <Timeline pending>
                 <Timeline-item>
+                    <Anchor title="2018-8-15" h2></Anchor>
+                    <ul>
+                        <li>工具方法新增getMin方法。</li>
+                        <li>地图资源新增周铁地图数据。</li>
+                    </ul>
+                </Timeline-item>
+                <Timeline-item>
+                    <Anchor title="2018-7-26" h2></Anchor>
+                    <ul>
+                        <li>新增css3动画效果，部分效果去除。</li>
+                    </ul>
+                </Timeline-item>
+                <Timeline-item>
+                    <Anchor title="2018-7-24" h2></Anchor>
+                    <ul>
+                        <li>新增8个css3动画效果。</li>
+                        <li>Vue试行版大屏开发规范上线。</li>
+                    </ul>
+                </Timeline-item>
+                <Timeline-item>
+                    <Anchor title="2018-7-16" h2></Anchor>
+                    <ul>
+                        <li>新增fly.js(刚哥提供的demo，必属精品)。</li>
+                    </ul>
+                </Timeline-item>
+                <Timeline-item>
                     <Anchor title="2018-7-4" h2></Anchor>
                     <ul>
                         <li>大屏开发规范调整，新增图片资源引入规范。</li>

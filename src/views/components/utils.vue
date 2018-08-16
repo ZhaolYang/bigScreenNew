@@ -8,6 +8,9 @@
             <Anchor title="获取一组数据的最大值" h2></Anchor>
             <i-code lang="js" bg>{{ code.max }}</i-code>
 
+            <Anchor title="获取一组数据的最小值" h2></Anchor>
+            <i-code lang="js" bg>{{ code.min }}</i-code>
+
             <Anchor title="获取一组数据的和" h2></Anchor>
             <i-code lang="js" bg>{{ code.sum }}</i-code>
 

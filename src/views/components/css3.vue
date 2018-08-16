@@ -26,6 +26,40 @@
 
       <Anchor title="看起来还不错的光圈" h2></Anchor>
       <iframe height='265' scrolling='no' title='zjQoro' src='//codepen.io/keroroZhao/embed/zjQoro/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/zjQoro/'>zjQoro</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="进度条(徐欣妍提供)" h2></Anchor>
+      <iframe 	height='265' 	scrolling='no' 	title='GBqYwJ' src='//codepen.io/xuxinyan/embed/GBqYwJ/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/xuxinyan/pen/GBqYwJ/'>GBqYwJ</a> by xuxy (<a	href='https://codepen.io/xuxinyan'>@xuxinyan</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="基于box-shadowdd的鼠标悬停效果(徐欣妍提供)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='pZbqdo' src='//codepen.io/xuxinyan/embed/pZbqdo/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/xuxinyan/pen/pZbqdo/'>pZbqdo</a> by xuxy (<a href='https://codepen.io/xuxinyan'>@xuxinyan</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="水滴效果(徐欣妍提供)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='wxzyzw' src='//codepen.io/xuxinyan/embed/wxzyzw/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/xuxinyan/pen/wxzyzw/'>wxzyzw</a> by xuxy (<a href='https://codepen.io/xuxinyan'>@xuxinyan</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="进度条例子2(徐欣妍提供)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='WKGMYG' src='//codepen.io/xuxinyan/embed/WKGMYG/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/xuxinyan/pen/WKGMYG/'>WKGMYG</a> by xuxy (<a href='https://codepen.io/xuxinyan'>@xuxinyan</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="鼠标悬停特效(骆宇宁提供)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='LBRBWw' src='//codepen.io/luoyn/embed/LBRBWw/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/luoyn/pen/LBRBWw/'>LBRBWw</a> by lynnnn (<a href='https://codepen.io/luoyn'>@luoyn</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="9种旋转特效(骆宇宁提供)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='jpMpvx' src='//codepen.io/luoyn/embed/jpMpvx/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/luoyn/pen/jpMpvx/'>jpMpvx</a> by lynnnn (<a href='https://codepen.io/luoyn'>@luoyn</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="水墨标题(骆宇宁提供)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='bjwjPv' src='//codepen.io/luoyn/embed/bjwjPv/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/luoyn/pen/bjwjPv/'>bjwjPv</a> by lynnnn (<a href='https://codepen.io/luoyn'>@luoyn</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="元素倒影（兼容性较差，仅chrome）" h2></Anchor>
+      <iframe height='265' scrolling='no' title='WKEGqj' src='//codepen.io/keroroZhao/embed/WKEGqj/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/WKEGqj/'>WKEGqj</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="水波涟漪(程姣姣)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='VBzmYZ' src='//codepen.io/keroroZhao/embed/VBzmYZ/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/VBzmYZ/'>VBzmYZ</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="科技感3D效果(程姣姣)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='MBvbrP' src='//codepen.io/keroroZhao/embed/MBvbrP/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/MBvbrP/'>MBvbrP</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
+      <Anchor title="好看的进出场效果(程姣姣)" h2></Anchor>
+      <iframe height='265' scrolling='no' title='ajyBOX' src='//codepen.io/keroroZhao/embed/ajyBOX/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/keroroZhao/pen/ajyBOX/'>ajyBOX</a> by zyang (<a href='https://codepen.io/keroroZhao'>@keroroZhao</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
+
     </article>
   </i-article>
 </template>

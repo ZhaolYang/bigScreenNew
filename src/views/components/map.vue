@@ -21,6 +21,7 @@
               <li><a href="./assets/maps/zjgall.rar" download="">张家港全家桶</a></li>
               <li><a href="./assets/maps/ruijin.js" download="">瑞金</a></li>
               <li><a href="./assets/maps/haian.js" download="">南通海安县</a></li>
+              <li><a href="./assets/maps/周铁.json" download="">周铁</a></li>
             </ul>
 
             <Anchor title="全国各省市地区经纬度" h2></Anchor>

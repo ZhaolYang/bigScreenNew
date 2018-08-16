@@ -19,6 +19,11 @@ const list = {
             path: '/docs/guide/develop-rules'
         },
         {
+            title: '大屏开发规范(Vue试行版)',
+            titleEn: 'Bigscreen Develop Rules For Vue.js',
+            path: '/docs/guide/vue-develop-rules'
+        },
+        {
             title: '更新日志',
             titleEn: 'Change Log',
             path: '/docs/guide/update'

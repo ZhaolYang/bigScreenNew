@@ -37,6 +37,13 @@ const routers = [
         },
         component: (resolve) => require(['./views/guide/develop-rules.vue'], resolve)
     },
+    {
+        path: '/docs/guide/vue-develop-rules',
+        meta: {
+            title: '大屏开发规范(Vue试行版)'
+        },
+        component: (resolve) => require(['./views/guide/vue-develop-rules.vue'], resolve)
+    },
     // {
     //     path: '/docs/guide/start',
     //     meta: {

@@ -20,7 +20,8 @@ Vue.config.debug = true;
 
 // 路由配置
 const RouterConfig = {
-    routes: Routers
+    routes: Routers,
+    // mode: 'history'
 };
 // if (Env != 'local') {
 //     RouterConfig.mode = 'history';

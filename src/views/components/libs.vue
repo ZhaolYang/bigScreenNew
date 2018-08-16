@@ -82,6 +82,12 @@
                 <a href="./demos/bubble/BisBubble/demo.html" target="_blank">业务系统版参考实例</a>
                 <a href="./demos/bubble/BsBubble/demo.html" target="_blank">大屏版参考实例</a>
             </alert>
+
+            <Anchor title="Fly.js" h2></Anchor>
+            <p>元素的飞入效果，比较常见的应用场景是添加购物车效果，也可以做水滴效果等。需要引入<a href="./assets/libs/fly.js" download="">fly.js</a></p>
+            <alert show-icon>
+                <a href="./demos/fly/fly.html" target="_blank">参考实例</a>
+            </alert>
         </article>
     </i-article>
 </template>

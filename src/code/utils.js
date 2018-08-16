@@ -1,14 +1,21 @@
 let code = {};
 
 code.commafy = `
+/**
+ * 数字转换为千分位
+ * @num Number/String 被转换的数字
+ */
 function toThousand(num) {
-  return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, "$1,");
+  return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,');
 }
 `;
 
 code.max = `
-// arr 数组
-// key 需要获取最大值的字段
+/**
+ * 获取数组中的最大值
+ * @arr Array 数据源
+ * @key String 获取数据的key
+ */
 getMax: function (arr, key) {
   var max = 0,
       len = arr.length;
@@ -23,9 +30,33 @@ var arr = [{key:166},{key:200},{key:33}];
 console.log(getMax(arr,'key)); //200
 `;
 
+code.min = `
+/**
+ * 获取数组中的最小值
+ * @arr Array 数据源
+ * @key String 获取数据的key
+ */
+getMax: function (arr, key) {
+  if(arr.length === 0) return;
+  var min = arr[0][key],
+      len = arr.length;
+  for (var i = 0; i < len; i++) {
+      var item = arr[i][key];
+      if (min > item) min = item;
+  }
+  return min;
+}
+
+var arr = [{key:166},{key:200},{key:33}];
+console.log(getMax(arr,'key)); //33
+`;
+
 code.sum = `
-// arr 数组/ 
-// key 需要求和的字段
+/**
+ * 获取数组中某键值得总和
+ * @arr Array 数据源
+ * @key key 获取数据的key
+ */
 getSum: function(arr, key) {
   var sum = 0,
     len = arr.length;
@@ -40,8 +71,11 @@ console.log(getSum(arr,'key)); //66
 `;
 
 code.getValArr = `
-// arr 数组
-// key 需要获取值的字段
+/**
+ * 获取数组中某键值的数组数据
+ * @arr Array 数据源
+ * @key key 获取数据的key
+ */
 getValArr: function (arr, key) {
   var val = [],
       len = arr.length;
@@ -91,8 +125,11 @@ code.renderNum = {
 </ul>
   `,
   js: `
-  // space 命名空间
-  // data 渲染数据
+  /**
+   * 获取数组中某键值得总和
+   * @arr space 命名空间
+   * @key data 渲染数据
+   */
   renderNum: function (space, data) {
     for (var i in data) {
         if (Object.prototype.hasOwnProperty.call(data, i)) {

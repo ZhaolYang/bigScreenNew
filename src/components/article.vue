@@ -104,7 +104,8 @@
                     '/docs/guide/theme',
                     '/overview',
                     '/docs/guide/update',
-                    '/docs/guide/develop-rules'
+                    '/docs/guide/develop-rules',
+                    '/docs/guide/vue-develop-rules'
                 ];
 
                 const route = this.$route.path;
